@@ -81,7 +81,7 @@ button, mailto {
     justify-content: center;
     gap: 1.5rem;
     width: 80%;
-    max-width: 1850px;
+    max-width: 1800px;
     box-sizing: border-box;
     flex-wrap: wrap;
     }
