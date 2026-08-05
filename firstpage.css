@@ -17,7 +17,7 @@ body {
     font-size: 1.5rem;
 }
 
-#p2 {
+p {
     margin: 0;
 }
 
@@ -45,6 +45,7 @@ body {
     width: 98%;
     box-sizing: border-box;
     margin: 1%;
+    font-size: 1.5rem;
 }
 
 
