@@ -3,10 +3,10 @@ body {
     background-size:cover;
     display: flex;
     justify-content: center;
-    align-items: top;
     text-align: center;
     font-size: 2rem;
     min-height: 100vh;
+    align-items: flex-start;
     margin: 0;
     font-family: 'Stack Sans Headline';
     color: aliceblue;
@@ -158,6 +158,23 @@ h3 {
     background-color: rgb(231, 177, 196);
     transform: scale(1.03);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: auto;
+        padding: 2.5rem 1rem;
+        width: 80%;
+        max-width: 400px;
+        min-width: unset;
+        font-size: 1.5rem;
+    }
+
+    .card_container {
+        width: 95%;
+        gap: 1rem;
+        margin: 0.5rem;
+    }
 }
 
 a {
