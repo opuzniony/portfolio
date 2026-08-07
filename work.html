@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My work</title>
@@ -8,10 +11,26 @@
 </head>
 </head>
 <body>
-    <div id="everything">
-        <h1>My work page</h1>
-        <p>This must be pretty awkward, but this page is also WIP.</p>
-        <button onclick="window.location.href='index.html';" id="back_button"><b>Go back</b></button>
+    <div id="header">
+        <p id="p5">Opuzniony</p>
+        <div class="dropdown">
+            <button><b>Navigation</b></button>
+            <div class="dropdown_content">
+                <a href="index.html">Home</a>
+                <a href="https://github.com/opuzniony">My GitHub</a>
+                <a href="about.html">About me</a>
+                <a href="blog.html">Currently</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>My projects</h1>
+    </div>
+    <div class="section" id="section1">
+        <div class="section_header">
+            <button onclick="window.location.href='https://github.com/opuzniony/stronapy';" id="dsm_button">Discord Server Manager</button>
+            <p id="p1"><b>></b></p>
+            <p id="p2">A manager bot for discord servers, focusing on changing settings across <b>all</b> channels, givng roles to many users at once, etc.</p>
+        </div>
     </div>
 </body>
-</html>
