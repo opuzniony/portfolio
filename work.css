@@ -78,13 +78,14 @@ p {
 
 .section {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: rgba(87, 101, 117, 0.6);
     border-radius: 10px;
     width: 98%;
     margin: 1%;
     height: 20vw;
-    align-items: flex-start;
+    align-items: inherit;
+    flex-direction: column;
 }
 
 button {
@@ -126,4 +127,8 @@ button {
 
 #p2 {
     font-size: 2rem;
+}
+
+h2 {
+    width: 50%;
 }
