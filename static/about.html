@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
@@ -9,9 +12,18 @@
 </head>
 <body>
     <div id="everything">
-        <h1>The about me page</h1>
-        <p>It's very much WIP.</p>
-        <button onclick="window.location.href='/index.html';" id="back_button"><b>Go back</b></button>
+        <div id="header">
+            <p id="p5">Patryk Filipiak</p>
+            <div class="dropdown">
+                <button><b>Navigation</b></button>
+                <div class="dropdown_content">
+                    <a href="/index.html">Home</a>
+                    <a href="/static/work.html">My work</a>
+                    <a href="https://github.com/opuzniony">My GitHub</a>
+                    <a href="static/blog.html">Currently</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
