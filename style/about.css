@@ -22,6 +22,10 @@ body {
     gap: 1.5rem;
 }
 
+.section h2 {
+    margin: 0;
+}
+
 p {
     margin: 0;
 }
@@ -113,4 +117,45 @@ button {
 a {
     text-decoration: none;
     color: black;
+}
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(87, 101, 117, 0.6);
+    border-radius: 10px;
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    height: fit-content;
+    align-items: inherit;
+    flex-direction: column;
+}
+
+.section_header {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: rgba(87, 101, 117, 0.6);
+}
+
+.section a{
+    color: rgb(110, 187, 255);
+    text-decoration: underline;
+}
+
+.essay {
+    max-width: 900px;
+    margin-top: 1%;
+}
+
+.section_header_footer {
+    margin-top: 2%;
+    font-size: 2.5rem;
 }
