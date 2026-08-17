@@ -125,6 +125,14 @@ button {
     font-size: 2rem;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
+#p1 {
+    margin-bottom: 3rem;
+}
+
 h2 {
     width: 50%;
 }
