@@ -178,6 +178,10 @@ a {
     padding-inline: 1%;
 }
 
+#essay1 {
+    margin-top: 0;
+}
+
 .section_button:hover {
     background-color: rgb(0, 173, 181);
     cursor: pointer;
@@ -216,7 +220,17 @@ a {
 }
 
 @media (max-width: 768px) {
-    
+    .different {
+        flex-direction: column;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    #different_button {
+        width: 80%;
+    }
 }
 
 #different2 {

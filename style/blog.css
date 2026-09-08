@@ -43,6 +43,14 @@ p {
     padding: 1rem 1.5rem;
 }
 
+#p6 {
+    white-space: nowrap;
+}
+
+.wrap {
+    white-space: normal;
+}
+
 .dropdown button {
     font-size: 1.5rem;
     border: none;
@@ -132,7 +140,7 @@ a {
 }
 
 .section_header_footer {
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 2.5rem;
 }
 
