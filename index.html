@@ -6,20 +6,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patryk Filipiak</title>
+    <title id="whatpage">Patryk Filipiak</title>
     <link rel="stylesheet" href="/style/firstpage.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div id="stupid_box">
         <div id="header">
             <p id="p5">Patryk Filipiak</p>
-            <div class="dropdown">
-                <button><b>Navigation</b></button>
-                <div class="dropdown_content">
-                    <a href="static/work.html">My work</a>
-                    <a href="https://github.com/opuzniony">My GitHub</a>
-                    <a href="static/about.html">About me</a>
-                    <a href="static/blog.html">Currently</a>
+            <div id="header_options">
+                <a id="change_language" href="/static/pl/index.html">Polski</a>
+                <div class="dropdown">
+                    <button>Navigation</button>
+                    <div class="dropdown_content">
+                        <a href="static/work.html">My work</a>
+                        <a href="https://github.com/opuzniony">My GitHub</a>
+                        <a href="static/about.html">About me</a>
+                        <a href="static/blog.html">Currently</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,20 +73,15 @@
         <div class="section" id="sct3">
             <div class="section_header">
                 <h2>Currently</h2>
-                <p>As of Sep 2026</p>
+                <p id="date1">js error?</p>
             </div>
             <p class="essay">
                 Learning how computers work from a 
-                NAND standpoint has become my main focus, 
-                currently I'm reading:
-            </p>
-            <p class="essay" id="essay1">
-                <b>CODE</b>
-                <br>
-                By Charles Petzold
+                NAND standpoint has become my main focus.
+                Maybe building a processor too.
             </p>
             <div class="section_header">
-                <a href="static/blog.html" class="section_button">See short/updated blog (Aug 25 2026)</a>
+                <a href="static/blog.html" class="section_button" id="date2">See short/updated blog (Aug 25 2026)</a>
             </div>
         </div>
         <div class="section" id="sct4">

@@ -6,26 +6,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title id="whatpage">Currently</title>
     <link rel="stylesheet" href="/style/blog.css">
+    <script src="/main.js" defer></script>
 </head>
 </head>
 <body>
     <div id="everything">
-        <div id="header">
+       <div id="header">
             <p id="p5">Patryk Filipiak</p>
-            <div class="dropdown">
-                <button><b>Navigation</b></button>
-                <div class="dropdown_content">
-                    <a href="/index.html">Home</a>
-                    <a href="work.html">My work</a>
-                    <a href="https://github.com/opuzniony">My GitHub</a>
-                    <a href="about.html">Currently</a>
+            <div id="header_options">
+                <a id="change_language" href="/static/pl/static/blog.html">Polski</a>
+                <div class="dropdown">
+                    <button>Navigation</button>
+                    <div class="dropdown_content">
+                        <a href="/index.html">Home</a>
+                        <a href="/static/work.html">My work</a>
+                        <a href="https://github.com/opuzniony">My GitHub</a>
+                        <a href="/static/about.html">About me</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <h1>What am I doing now?</h1>
-        <p class="margined">Updated whenever something new happens, last updated Sep 8 2026</p>
+
+        <h1 id="headercheck">What am I doing now?</h1>
+        <p class="margined">Updated whenever something new happens, last updated <b id="date3">js error?</b></p>
         <div class="section">
             <div class="section_header">
                 <h2>Reading stuff</h2>
@@ -67,7 +72,7 @@
                 Currently I'm just coping with school
                 and reading those books at the start of 
                 the page trying to learn,
-                eventually I will focus more on <a href="">forgot</a> 
+                eventually I will focus more on <a href="https://github.com/opuzniony/forgot">forgot</a> 
                 and maybe start working on more projects.
             </p>
         </div>
