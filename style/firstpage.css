@@ -251,6 +251,19 @@ a {
     #different_button {
         width: 80%;
     }
+    
+    .essay {
+        padding-inline: 1rem;
+    }
+
+    #header p{
+        display: none;
+    }
+
+    #header_options {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
 #different2 {

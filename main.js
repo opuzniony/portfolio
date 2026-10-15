@@ -23,9 +23,7 @@ if (lang == "Polski" && page == "Patryk Filipiak") {
     document.getElementById('date2').innerHTML = 
     "Zobacz krótki / zaktualizowany blog (" + lastBlogDateDay +
     " " + lastBlogDateMonthPL + " " + lastBlogDateYear + ")";
-}
-
-if (page == "Currently") {
+} else if (page == "Currently") {
         document.getElementById('date3').innerHTML = 
         lastBlogDateDay + " " + lastBlogDateMonth +
          " " + lastBlogDateYear;
